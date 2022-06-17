@@ -137,7 +137,7 @@ button {
     background-color: white;
     position: absolute;
     top: -130px;
-    left: 27%;
+    left: 24%;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 30px 150px;
@@ -202,7 +202,7 @@ button {
 }
 
 .box_2 {
-    margin-top: 170px;
+    margin-top: 140px;
 }
 
 @media (max-width:375px) {
