@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+p {
+    color: hsl(208, 11%, 55%);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+h1 {
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.link {
+    display: inline-block;
+    padding: 15px 50px;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 30px;
+    margin: 100px 0;
+}
+
+.header {
+    height: 100vh;
+    background-image: url(./bg-hero-desktop\ 2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 70px;
+}
+
+.container {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 20px 70px 0 70px;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 160px;
+}
+
+button {
+    padding: 15px 65px;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+.word {
+    flex: 50%;
+}
+
+.word h1 {
+    margin-bottom: 10%;
+}
+
+.img {
+    flex: 50%;
+    max-width: 100%;
+}
+
+.img img {
+    width: 100%;
+}
+
+.categories {
+    margin: 0 70px 40px 70px;
+}
+
+.small-container {
+    height: 100vh;
+    display: flex;
+    /* margin: auto; */
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 100px 50px 50px 100px;
+}
+
+.word_2 {
+    flex-basis: 50%;
+}
+
+.word_2 h1 {
+    margin: 120px 0 20px 0;
+}
+
+.img_2 {
+    flex-basis: 50%;
+}
+
+.img_2 img {
+    width: 100%;
+}
+
+.footer {
+    height: 60vh;
+    margin-top: 300px;
+    background-color: hsl(192, 100%, 9%);
+    position: relative;
+    padding-top: 50px;
+}
+
+.box {
+    /* height: 50px;
+    width: 800px; */
+    background-color: white;
+    position: absolute;
+    top: -130px;
+    left: 27%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 30px 150px;
+    text-align: center;
+
+}
+
+.box h1 {
+    margin-bottom: 40px;
+    color: hsl(192, 100%, 9%);
+}
+
+.box a {
+    margin: 0;
+}
+
+.down {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 70px;
+    /* height: 50vh; */
+    bottom: 80px;
+}
+
+.lef_col {
+    flex-basis: 30%;
+    height: 40vh;
+}
+
+.lef_col img {
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+.lef_col p {
+    margin-bottom: 30px;
+    padding-left: 10px;
+}
+
+.rig_col {
+    display: flex;
+    flex-basis: 60%;
+    height: 20vh;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.rig_col p {
+    margin-bottom: 30px;
+}
+
+.box_2 {
+    /* margin: 150px; */
+    text-align: right;
+}
+
+.third .fa-brands {
+    width: 30px;
+    color: white;
+
+}
+
+.box_2 {
+    margin-top: 170px;
+}
+
+@media (max-width:375px) {
+    .header {
+        background-image: url(./bg-hero-mobile\ 1.svg);
+        margin-bottom: 40px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+
+    button {
+        padding: 5px 25px;
+        border-radius: 50px;
+    }
+
+    .content {
+        display: block;
+        margin-top: 60px;
+    }
+
+    .word {
+        text-align: center;
+    }
+
+    .word h1 {
+        margin-bottom: 0;
+    }
+
+    .link {
+        margin-top: 30px;
+        padding: 10px 40px;
+    }
+
+    .img img {
+        margin-top: -50px;
+    }
+
+    .categories {
+        margin: 0 10px 40px 10px;
+    }
+
+    .small-container {
+        display: block;
+        height: 80vh;
+        text-align: center;
+        padding: 30px 20px 10px 20px;
+    }
+
+    .word_2 h1 {
+        margin: 0 0 60px 0;
+    }
+
+    .footer {
+        height: 100vh;
+    }
+
+    .box {
+        left: 2%;
+        top: -90px;
+        padding: 10px 30px;
+    }
+
+    .box h1 {
+        font-size: 24px;
+    }
+
+    .rig_col {
+        display: block;
+    }
+
+    .down {
+        display: block;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .lef_col img {
+        width: 100px;
+        margin-bottom: 10px;
+    }
+
+    .lef_col p {
+        margin-bottom: 30px;
+    }
+
+    .third {
+        padding: 0 125px;
+    }
+
+    .third .fa-brands {
+        margin-bottom: 80px;
+    }
+
+    .box_2 {
+        margin-top: 0;
+    }
+}
